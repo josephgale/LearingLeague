@@ -1,0 +1,50 @@
+name: learing_league
+description: "Open source fraud hunter for independent journalists. Claim routes. Expose the grift. Climb the league."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+
+  # Backend
+  supabase_flutter: ^2.8.4
+
+  # Maps
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+  # State management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Routing
+  go_router: ^14.8.1
+
+  # Utils
+  image_picker: ^1.1.2
+  geolocator: ^13.0.2
+  intl: ^0.19.0
+  url_launcher: ^6.3.1
+  share_plus: ^10.1.4
+  cached_network_image: ^3.4.1
+  timeago: ^3.7.0
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  riverpod_generator: ^2.6.3
+  build_runner: ^2.4.14
+  json_serializable: ^6.9.4
+
+flutter:
+  uses-material-design: true
